@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Connect
+MAINTAINER fass
 ENV http_proxy web-proxy.esg-gmbh.de:3128
 ENV https_proxy web-proxy.esg-gmbh.de:3128
 RUN yum update -y \
